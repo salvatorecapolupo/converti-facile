@@ -1,0 +1,14 @@
+# Runtime - solo librerie Python, nessun programma esterno da installare
+Pillow>=11.3            # immagini (AVIF incluso da questa versione)
+pillow-heif>=0.18       # HEIC/HEIF (porta con sé la libreria nativa)
+PyMuPDF>=1.24           # PDF, SVG, motore HTML->PDF
+pdf2docx>=0.5.8         # PDF -> DOCX
+python-docx>=1.1        # lettura/scrittura DOCX
+python-pptx>=1.0        # lettura PPTX
+openpyxl>=3.1           # XLSX
+xlrd>=2.0.1             # XLS (sola lettura)
+Markdown>=3.5           # Markdown -> HTML
+tkinterdnd2>=0.4        # trascinamento file (facoltativo: senza, l'app funziona lo stesso)
+
+# Build (solo per creare l'EXE)
+pyinstaller>=6.0
